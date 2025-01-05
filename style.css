@@ -4,10 +4,12 @@
     color: #eee;
     font-family: sans-serif;
 }
+
 body{
     background-color: #002;
     display: flex;
 }
+
 .imag-box{
     width: 50px;
     height: 50px;
@@ -16,10 +18,11 @@ body{
     border: 3px solid white;
     flex-shrink: 0;
 }
+
 .imag-box img{
     width: 100%;
-    
 }
+
 .menu{
     background-color: #123;
     width: 60px;
@@ -28,18 +31,20 @@ body{
     overflow: hidden;
     transition: .5s;
 }
+
 .menu:hover{
     width: 260px;
 }
+
 ul{
     list-style: none;
     position: relative;
     height: 95%;
 }
+
 ul li a{
     display: block;
     text-decoration: none;
-    /* background-color: red; */
     padding: 10px;
     margin: 10px 0;
     border-radius: 8px;
@@ -48,34 +53,41 @@ ul li a{
     gap: 40px;
     transition: 0.5
 }
-ul li a:hover, .active{
+
+ul li a:hover, .active ,.data-info .box:hover , td:hover{
     background-color: #ffffff55;
 }
+
 .log-out{
     position: absolute;
     bottom: 0;
     width: 100%;
 }
+
 .log-out a{
     background-color: #a00;
 }
+
 ul li a i{
     font-size: 30px;
 }
+
 .profile{
     display: flex;
     align-items: center;
     gap: 30px;
 }
+
 .profile h2{
    font-size: 20px; 
    text-transform: capitalize;
 }
-/* ******************************************************** */
+
 .content{
     width: 100%;
     margin: 10px ;
 }
+
 .title-info{
     background-color: rgb(36, 36, 189);
     padding: 10px;
@@ -85,6 +97,7 @@ ul li a i{
     border-radius: 8px;
     margin: 10px 0;
 }
+
 .data-info{
     display:flex;
     align-items: center;
@@ -92,6 +105,7 @@ ul li a i{
     flex-wrap: wrap;
     gap: 10px;
 }
+
 .data-info .box{
     background-color: #123;
     height: 150px;
@@ -102,35 +116,36 @@ ul li a i{
     align-items: center;
     justify-content: space-around;
 }
-.data-info .box:hover{
-    background-color: #757171a2;
-}
+
 .data-info .box i{
     font-size: 40px;
 }
+
 .data-info .box .data{
     text-align: center;
 }
+
 .data-info .box .data span{
     font-size: 30px;
 }
+
 table{
     width: 100%;
     text-align: center;
     border-spacing: 8px;
 }
+
 th,td{
     background-color: #123;
     height: 40px;
     border-radius: 7px;
     padding: 10px;
 }
+
 th{
     background-color: #0080ff;
 }
-td:hover{
-    background-color: #ffffff55;
-}
+
 .price{
     background-color: rgb(60, 179, 60);
     border-radius: 8px;
